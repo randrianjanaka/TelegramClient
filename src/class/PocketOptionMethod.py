@@ -20,21 +20,46 @@ class PocketOptionMethod:
         return history
 
     async def buy(self, asset: str, amount: float, time: int, check_win = True):
-        buy_id, _ = await self.api.buy(asset=asset, amount=amount, time=time, check_win=check_win)
-        return buy_id, _
+        try:
+            (buy_id, _) = await self.api.buy(asset=asset, amount=amount, time=time, check_win=check_win)
+            return buy_id, _
+        except Exception as e:
+            raise ValueError(f"Failed to buy : {e}")
 
     async def sell(self, asset: str, amount: float, time: int, check_win = True):
-        sell_id, _ = await self.api.sell(asset=asset, amount=amount, time=time, check_win=check_win)
-        return sell_id, _
+        try:
+            (sell_id, _) = await self.api.sell(asset=asset, amount=amount, time=time, check_win=check_win)
+            return sell_id, _
+        except Exception as e:
+            raise ValueError(f"Failed to sell : {e}")
+
+    async def execute_with_retry(self, func, *args, **kwargs):
+        max_retries = 3
+        delay_seconds = 5
+
+        for attempt in range(max_retries):
+            try:
+                result = await func(*args, **kwargs)
+
+                if not result:
+                    await asyncio.sleep(delay_seconds)
+                    continue
+
+                return result
+            except Exception as e:
+                if attempt < max_retries - 1:
+                    await asyncio.sleep(delay_seconds)
+                else:
+                    raise
 
     async def getOpenedDeals(self):
-        opened_deals = await self.api.opened_deals()
+        opened_deals = await self.execute_with_retry(self.api.opened_deals)
         return opened_deals
 
     async def getClosedDeals(self):
-        closed_deals = await self.api.closed_deals()
+        closed_deals = await self.execute_with_retry(self.api.closed_deals)
         return closed_deals
 
     async def getTradeData(self, tradeID):
-        tradeData = await self.api.check_win(tradeID)
+        tradeData = await self.execute_with_retry(self.api.check_win, tradeID)
         return tradeData

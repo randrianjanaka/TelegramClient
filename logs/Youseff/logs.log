@@ -1,0 +1,327 @@
+2025-04-03T14:24:52.155467Z DEBUG reqwest::connect: starting new connection: https://api.ipify.org/    
+2025-04-03T14:24:52.220073Z DEBUG hyper_util::client::legacy::connect::http: connecting to 172.67.74.152:443
+2025-04-03T14:24:52.421418Z DEBUG hyper_util::client::legacy::connect::http: connected to 172.67.74.152:443
+2025-04-03T14:24:53.150980Z DEBUG hyper_util::client::legacy::pool: pooling idle connection for ("https", api.ipify.org)
+2025-04-03T14:24:53.151671Z DEBUG reqwest::connect: starting new connection: http://ip-api.com/    
+2025-04-03T14:24:53.157817Z DEBUG hyper_util::client::legacy::connect::http: connecting to 208.95.112.1:80
+2025-04-03T14:24:53.432205Z DEBUG hyper_util::client::legacy::connect::http: connected to 208.95.112.1:80
+2025-04-03T14:24:53.707651Z DEBUG hyper_util::client::legacy::pool: pooling idle connection for ("http", ip-api.com)
+2025-04-03T14:24:53.709467Z  INFO TryConnect: Trying to connecto to wss://api-asia.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:24:53.709614Z  INFO TryConnect: Trying to connecto to wss://api-us4.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:24:53.709898Z  INFO TryConnect: Trying to connecto to wss://api-msk.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:24:53.710257Z  INFO TryConnect: Trying to connecto to wss://api-sc.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:24:53.710594Z  INFO TryConnect: Trying to connecto to wss://api-spb.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:24:53.711084Z  INFO TryConnect: Trying to connecto to wss://api-in.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:24:53.711168Z  INFO TryConnect: Trying to connecto to wss://api-l.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:24:53.711505Z  INFO TryConnect: Trying to connecto to wss://api-eu.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:24:53.713700Z  INFO TryConnect: Trying to connecto to wss://api-us3.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:24:53.714887Z  INFO TryConnect: Trying to connecto to wss://api-us2.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:24:53.715029Z  INFO TryConnect: Trying to connecto to wss://api-us-north.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:24:53.715169Z  INFO TryConnect: Trying to connecto to wss://api-c.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:24:53.715301Z  INFO TryConnect: Trying to connecto to wss://api-fin.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:24:53.715423Z  INFO TryConnect: Trying to connecto to wss://api-hk.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:24:53.716485Z  INFO TryConnect: Trying to connecto to wss://api-fr2.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:24:53.716557Z  INFO TryConnect: Trying to connecto to wss://api-fr.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:24:54.733587Z DEBUG tungstenite::handshake::client: Client handshake done.    
+2025-04-03T14:24:54.733640Z  INFO SuccessConnect: Succesfully connected to wss://api-eu.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:24:54.733742Z  INFO TryConnect: Trying to connecto to wss://api-eu.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:24:54.824164Z DEBUG tungstenite::handshake::client: Client handshake done.    
+2025-04-03T14:24:54.824320Z  INFO SuccessConnect: Succesfully connected to wss://api-spb.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:24:55.365299Z DEBUG tungstenite::handshake::client: Client handshake done.    
+2025-04-03T14:24:55.365426Z  INFO SuccessConnect: Succesfully connected to wss://api-msk.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:24:55.487900Z DEBUG tungstenite::handshake::client: Client handshake done.    
+2025-04-03T14:24:55.487940Z  INFO SuccessConnect: Succesfully connected to wss://api-sc.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:24:55.585454Z DEBUG tungstenite::handshake::client: Client handshake done.    
+2025-04-03T14:24:55.585568Z  INFO SuccessConnect: Succesfully connected to wss://api-us3.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:24:55.600682Z DEBUG tungstenite::handshake::client: Client handshake done.    
+2025-04-03T14:24:55.600798Z  INFO SuccessConnect: Succesfully connected to wss://api-us4.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:24:55.604133Z DEBUG tungstenite::handshake::client: Client handshake done.    
+2025-04-03T14:24:55.604247Z  INFO SuccessConnect: Succesfully connected to wss://api-us2.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:24:55.606448Z DEBUG tungstenite::handshake::client: Client handshake done.    
+2025-04-03T14:24:55.606541Z  INFO SuccessConnect: Succesfully connected to wss://api-us-north.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:24:55.707692Z DEBUG tungstenite::handshake::client: Client handshake done.    
+2025-04-03T14:24:55.707744Z  INFO SuccessConnect: Succesfully connected to wss://api-eu.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:24:55.708106Z  INFO binary_options_tools_core::general::client: Started WebSocketClient
+2025-04-03T14:24:55.709155Z DEBUG binary_options_tools_core::general::client: Sent message to websocket!
+2025-04-03T14:24:55.929831Z DEBUG binary_options_tools_core::general::client: Sent message to websocket!
+2025-04-03T14:24:56.188681Z DEBUG binary_options_tools_core::general::client: Recieved info: updateAssets
+2025-04-03T14:24:56.219658Z  INFO Buy: Placing a buy trade for asset 'EURJPY_otc', with amount '1' and time '300'
+2025-04-03T14:24:56.468958Z DEBUG binary_options_tools_core::general::client: Recieved data of type: updateAssets
+2025-04-03T14:24:56.471080Z DEBUG binary_options_tools_core::general::client: Recieved info: successauth
+2025-04-03T14:24:56.471293Z DEBUG binary_options_tools_core::general::client: Recieved data of type: successauth
+2025-04-03T14:24:56.471404Z DEBUG binary_options_tools_core::general::client: Recieved info: successupdateBalance
+2025-04-03T14:24:56.471547Z DEBUG binary_options_tools_core::general::client: Recieved data of type: successupdateBalance
+2025-04-03T14:24:56.471753Z DEBUG binary_options_tools_core::general::client: Recieved raw message: RawWebsocketMessage { value: "451-[\"updateCharts\",{\"_placeholder\":true,\"num\":0}]" }
+2025-04-03T14:24:56.472271Z  WARN binary_option_tools::pocketoption::parser::message: Failed to parse message of type 'successupdateBalance':
+ [{"chart_id":"chart-1","settings":"{\"chartId\":\"chart-1\",\"chartType\":2,\"chartPeriod\":6,\"candlesTimer\":true,\"symbol\":\"AUDNZD_otc\",\"demoDealAmount\":10,\"liveDealAmount\":4,\"enabledTradeMonitor\":false,\"enabledRatingWidget\":true,\"isVisible\":true,\"fastTimeframe\":180,\"enabledAutoscroll\":false,\"enabledGridSnap\":true,\"minimizedTradePanel\":false,\"fastCloseAt\":1743697500,\"enableQuickAutoOffset\":true,\"quickAutoOffsetValue\":300,\"showArea\":false,\"percentAmount\":0.01,\"currency\":\"USD\"}"}], parsing it as raw data
+2025-04-03T14:24:56.472342Z DEBUG binary_options_tools_core::general::client: Recieved raw message: RawWebsocketMessage { value: "[{\"chart_id\":\"chart-1\",\"settings\":\"{\\\"chartId\\\":\\\"chart-1\\\",\\\"chartType\\\":2,\\\"chartPeriod\\\":6,\\\"candlesTimer\\\":true,\\\"symbol\\\":\\\"AUDNZD_otc\\\",\\\"demoDealAmount\\\":10,\\\"liveDealAmount\\\":4,\\\"enabledTradeMonitor\\\":false,\\\"enabledRatingWidget\\\":true,\\\"isVisible\\\":true,\\\"fastTimeframe\\\":180,\\\"enabledAutoscroll\\\":false,\\\"enabledGridSnap\\\":true,\\\"minimizedTradePanel\\\":false,\\\"fastCloseAt\\\":1743697500,\\\"enableQuickAutoOffset\\\":true,\\\"quickAutoOffsetValue\\\":300,\\\"showArea\\\":false,\\\"percentAmount\\\":0.01,\\\"currency\\\":\\\"USD\\\"}\"}]" }
+2025-04-03T14:24:56.474898Z DEBUG binary_options_tools_core::general::client: Recieved info: updateOpenedDeals
+2025-04-03T14:24:56.475362Z DEBUG binary_options_tools_core::general::client: Recieved data of type: updateOpenedDeals
+2025-04-03T14:24:56.487450Z DEBUG binary_options_tools_core::general::client: Recieved info: updateClosedDeals
+2025-04-03T14:24:56.487902Z DEBUG binary_options_tools_core::general::client: Sent message to websocket!
+2025-04-03T14:24:56.501884Z DEBUG binary_options_tools_core::general::client: Recieved data of type: updateClosedDeals
+2025-04-03T14:24:56.502186Z DEBUG binary_options_tools_core::general::client: Recieved raw message: RawWebsocketMessage { value: "451-[\"successupdateOpenedExpresses\",{\"_placeholder\":true,\"num\":0}]" }
+2025-04-03T14:24:56.502326Z DEBUG binary_options_tools_core::general::client: Recieved data of type: updateClosedDeals
+2025-04-03T14:24:56.502457Z DEBUG binary_options_tools_core::general::client: Recieved info: successupdatePending
+2025-04-03T14:24:56.502571Z DEBUG binary_options_tools_core::general::client: Recieved data of type: successupdatePending
+2025-04-03T14:24:56.502711Z DEBUG binary_options_tools_core::general::client: Recieved raw message: RawWebsocketMessage { value: "451-[\"successindicator/load\",{\"_placeholder\":true,\"num\":0}]" }
+2025-04-03T14:24:56.503253Z DEBUG binary_options_tools_core::general::client: Recieved data of type: successupdatePending
+2025-04-03T14:24:56.503463Z DEBUG binary_options_tools_core::general::client: Recieved raw message: RawWebsocketMessage { value: "451-[\"successfavorite/load\",{\"_placeholder\":true,\"num\":0}]" }
+2025-04-03T14:24:56.503592Z DEBUG binary_options_tools_core::general::client: Recieved data of type: successupdatePending
+2025-04-03T14:24:56.503707Z DEBUG binary_options_tools_core::general::client: Recieved raw message: RawWebsocketMessage { value: "451-[\"successprice-alert/load\",{\"_placeholder\":true,\"num\":0}]" }
+2025-04-03T14:24:56.503822Z DEBUG binary_options_tools_core::general::client: Recieved data of type: successupdatePending
+2025-04-03T14:24:56.503946Z DEBUG binary_options_tools_core::general::client: Recieved info: updateHistoryNew
+2025-04-03T14:24:56.666179Z DEBUG binary_options_tools_core::general::client: Recieved data of type: updateHistoryNew
+2025-04-03T14:24:56.682624Z DEBUG binary_options_tools_core::general::client: Recieved raw message: RawWebsocketMessage { value: "451-[\"successprice-alert/load\",{\"_placeholder\":true,\"num\":0}]" }
+2025-04-03T14:24:56.683012Z  WARN binary_option_tools::pocketoption::parser::message: Failed to parse message of type 'updateHistoryNew':
+ [], parsing it as raw data
+2025-04-03T14:24:56.683033Z DEBUG binary_options_tools_core::general::client: Recieved raw message: RawWebsocketMessage { value: "[]" }
+2025-04-03T14:24:56.683081Z DEBUG binary_options_tools_core::general::client: Recieved raw message: RawWebsocketMessage { value: "451-[\"successfavorite/load\",{\"_placeholder\":true,\"num\":0}]" }
+2025-04-03T14:25:00.709809Z DEBUG binary_options_tools_core::general::client: Sent message to websocket!
+2025-04-03T14:25:17.250292Z DEBUG reqwest::connect: starting new connection: https://api.ipify.org/    
+2025-04-03T14:25:17.251148Z DEBUG hyper_util::client::legacy::connect::http: connecting to 172.67.74.152:443
+2025-04-03T14:25:17.462567Z DEBUG hyper_util::client::legacy::connect::http: connected to 172.67.74.152:443
+2025-04-03T14:25:18.213118Z DEBUG reqwest::connect: starting new connection: http://ip-api.com/    
+2025-04-03T14:25:18.220332Z DEBUG hyper_util::client::legacy::connect::http: connecting to 208.95.112.1:80
+2025-04-03T14:25:18.509320Z DEBUG hyper_util::client::legacy::connect::http: connected to 208.95.112.1:80
+2025-04-03T14:25:18.800882Z DEBUG hyper_util::client::legacy::pool: pooling idle connection for ("http", ip-api.com)
+2025-04-03T14:25:18.801265Z  INFO TryConnect: Trying to connecto to wss://api-asia.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:25:18.801355Z  INFO TryConnect: Trying to connecto to wss://api-us4.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:25:18.801423Z  INFO TryConnect: Trying to connecto to wss://api-in.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:25:18.801491Z  INFO TryConnect: Trying to connecto to wss://api-spb.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:25:18.801472Z  INFO TryConnect: Trying to connecto to wss://api-eu.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:25:18.801287Z  INFO TryConnect: Trying to connecto to wss://api-msk.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:25:18.801529Z  INFO TryConnect: Trying to connecto to wss://api-us2.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:25:18.801859Z  INFO TryConnect: Trying to connecto to wss://api-sc.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:25:18.801688Z  INFO TryConnect: Trying to connecto to wss://api-us3.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:25:18.801993Z  INFO TryConnect: Trying to connecto to wss://api-us-north.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:25:18.802080Z  INFO TryConnect: Trying to connecto to wss://api-c.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:25:18.802344Z  INFO TryConnect: Trying to connecto to wss://api-l.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:25:18.802477Z  INFO TryConnect: Trying to connecto to wss://api-fr.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:25:18.802601Z  INFO TryConnect: Trying to connecto to wss://api-fin.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:25:18.802698Z  INFO TryConnect: Trying to connecto to wss://api-hk.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:25:18.802841Z  INFO TryConnect: Trying to connecto to wss://api-fr2.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:25:19.830264Z DEBUG tungstenite::handshake::client: Client handshake done.    
+2025-04-03T14:25:19.830389Z  INFO SuccessConnect: Succesfully connected to wss://api-eu.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:25:19.830709Z  INFO TryConnect: Trying to connecto to wss://api-eu.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:25:19.902758Z DEBUG tungstenite::handshake::client: Client handshake done.    
+2025-04-03T14:25:19.902926Z  INFO SuccessConnect: Succesfully connected to wss://api-spb.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:25:20.498969Z DEBUG tungstenite::handshake::client: Client handshake done.    
+2025-04-03T14:25:20.499144Z  INFO SuccessConnect: Succesfully connected to wss://api-msk.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:25:20.574972Z DEBUG tungstenite::handshake::client: Client handshake done.    
+2025-04-03T14:25:20.575081Z  INFO SuccessConnect: Succesfully connected to wss://api-us-north.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:25:20.589923Z DEBUG tungstenite::handshake::client: Client handshake done.    
+2025-04-03T14:25:20.590032Z  INFO SuccessConnect: Succesfully connected to wss://api-us3.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:25:20.679778Z DEBUG tungstenite::handshake::client: Client handshake done.    
+2025-04-03T14:25:20.679893Z  INFO SuccessConnect: Succesfully connected to wss://api-us4.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:25:20.686269Z DEBUG tungstenite::handshake::client: Client handshake done.    
+2025-04-03T14:25:20.686379Z  INFO SuccessConnect: Succesfully connected to wss://api-us2.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:25:20.694410Z DEBUG tungstenite::handshake::client: Client handshake done.    
+2025-04-03T14:25:20.694538Z  INFO SuccessConnect: Succesfully connected to wss://api-sc.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:25:20.794459Z DEBUG tungstenite::handshake::client: Client handshake done.    
+2025-04-03T14:25:20.794590Z  INFO SuccessConnect: Succesfully connected to wss://api-eu.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:25:20.795286Z  INFO binary_options_tools_core::general::client: Started WebSocketClient
+2025-04-03T14:25:20.795939Z DEBUG binary_options_tools_core::general::client: Sent message to websocket!
+2025-04-03T14:25:21.033827Z DEBUG binary_options_tools_core::general::client: Sent message to websocket!
+2025-04-03T14:25:21.293257Z DEBUG binary_options_tools_core::general::client: Recieved info: updateAssets
+2025-04-03T14:25:21.310341Z  INFO GetOpenDeals: Retrieving list of open deals
+2025-04-03T14:25:21.612944Z DEBUG binary_options_tools_core::general::client: Recieved data of type: updateAssets
+2025-04-03T14:25:21.613828Z DEBUG binary_options_tools_core::general::client: Recieved info: successauth
+2025-04-03T14:25:21.621021Z DEBUG binary_options_tools_core::general::client: Recieved data of type: successauth
+2025-04-03T14:25:21.621188Z DEBUG binary_options_tools_core::general::client: Recieved info: successupdateBalance
+2025-04-03T14:25:21.621296Z DEBUG binary_options_tools_core::general::client: Recieved data of type: successupdateBalance
+2025-04-03T14:25:21.621430Z DEBUG binary_options_tools_core::general::client: Recieved raw message: RawWebsocketMessage { value: "451-[\"updateCharts\",{\"_placeholder\":true,\"num\":0}]" }
+2025-04-03T14:25:21.621649Z  WARN binary_option_tools::pocketoption::parser::message: Failed to parse message of type 'successupdateBalance':
+ [{"chart_id":"chart-1","settings":"{\"chartId\":\"chart-1\",\"chartType\":2,\"chartPeriod\":6,\"candlesTimer\":true,\"symbol\":\"AUDNZD_otc\",\"demoDealAmount\":10,\"liveDealAmount\":4,\"enabledTradeMonitor\":false,\"enabledRatingWidget\":true,\"isVisible\":true,\"fastTimeframe\":180,\"enabledAutoscroll\":false,\"enabledGridSnap\":true,\"minimizedTradePanel\":false,\"fastCloseAt\":1743697500,\"enableQuickAutoOffset\":true,\"quickAutoOffsetValue\":300,\"showArea\":false,\"percentAmount\":0.01,\"currency\":\"USD\"}"}], parsing it as raw data
+2025-04-03T14:25:21.621709Z DEBUG binary_options_tools_core::general::client: Recieved raw message: RawWebsocketMessage { value: "[{\"chart_id\":\"chart-1\",\"settings\":\"{\\\"chartId\\\":\\\"chart-1\\\",\\\"chartType\\\":2,\\\"chartPeriod\\\":6,\\\"candlesTimer\\\":true,\\\"symbol\\\":\\\"AUDNZD_otc\\\",\\\"demoDealAmount\\\":10,\\\"liveDealAmount\\\":4,\\\"enabledTradeMonitor\\\":false,\\\"enabledRatingWidget\\\":true,\\\"isVisible\\\":true,\\\"fastTimeframe\\\":180,\\\"enabledAutoscroll\\\":false,\\\"enabledGridSnap\\\":true,\\\"minimizedTradePanel\\\":false,\\\"fastCloseAt\\\":1743697500,\\\"enableQuickAutoOffset\\\":true,\\\"quickAutoOffsetValue\\\":300,\\\"showArea\\\":false,\\\"percentAmount\\\":0.01,\\\"currency\\\":\\\"USD\\\"}\"}]" }
+2025-04-03T14:25:21.621821Z DEBUG binary_options_tools_core::general::client: Recieved info: updateOpenedDeals
+2025-04-03T14:25:21.622162Z DEBUG binary_options_tools_core::general::client: Recieved data of type: updateOpenedDeals
+2025-04-03T14:25:21.622314Z DEBUG binary_options_tools_core::general::client: Recieved raw message: RawWebsocketMessage { value: "451-[\"successupdateOpenedExpresses\",{\"_placeholder\":true,\"num\":0}]" }
+2025-04-03T14:25:21.622406Z DEBUG binary_options_tools_core::general::client: Recieved data of type: updateOpenedDeals
+2025-04-03T14:25:21.622520Z DEBUG binary_options_tools_core::general::client: Recieved info: updateClosedDeals
+2025-04-03T14:25:21.622784Z DEBUG binary_options_tools_core::general::client: Sent message to websocket!
+2025-04-03T14:25:21.635228Z DEBUG binary_options_tools_core::general::client: Recieved data of type: updateClosedDeals
+2025-04-03T14:25:21.635461Z DEBUG binary_options_tools_core::general::client: Recieved info: successupdatePending
+2025-04-03T14:25:21.635558Z DEBUG binary_options_tools_core::general::client: Recieved data of type: successupdatePending
+2025-04-03T14:25:21.645765Z DEBUG binary_options_tools_core::general::client: Recieved raw message: RawWebsocketMessage { value: "451-[\"successindicator/load\",{\"_placeholder\":true,\"num\":0}]" }
+2025-04-03T14:25:21.646217Z DEBUG binary_options_tools_core::general::client: Recieved data of type: successupdatePending
+2025-04-03T14:25:21.646475Z DEBUG binary_options_tools_core::general::client: Recieved raw message: RawWebsocketMessage { value: "451-[\"successfavorite/load\",{\"_placeholder\":true,\"num\":0}]" }
+2025-04-03T14:25:21.646608Z DEBUG binary_options_tools_core::general::client: Recieved data of type: successupdatePending
+2025-04-03T14:25:21.646772Z DEBUG binary_options_tools_core::general::client: Recieved raw message: RawWebsocketMessage { value: "451-[\"successprice-alert/load\",{\"_placeholder\":true,\"num\":0}]" }
+2025-04-03T14:25:21.646903Z DEBUG binary_options_tools_core::general::client: Recieved data of type: successupdatePending
+2025-04-03T14:25:21.757758Z DEBUG binary_options_tools_core::general::client: Recieved info: updateHistoryNew
+2025-04-03T14:25:21.873837Z DEBUG binary_options_tools_core::general::client: Recieved data of type: updateHistoryNew
+2025-04-03T14:25:21.873958Z DEBUG binary_options_tools_core::general::client: Recieved raw message: RawWebsocketMessage { value: "451-[\"successfavorite/load\",{\"_placeholder\":true,\"num\":0}]" }
+2025-04-03T14:25:21.873998Z  WARN binary_option_tools::pocketoption::parser::message: Failed to parse message of type 'updateHistoryNew':
+ ["EURUSD_otc"], parsing it as raw data
+2025-04-03T14:25:21.874006Z DEBUG binary_options_tools_core::general::client: Recieved raw message: RawWebsocketMessage { value: "[\"EURUSD_otc\"]" }
+2025-04-03T14:25:21.874035Z DEBUG binary_options_tools_core::general::client: Recieved raw message: RawWebsocketMessage { value: "451-[\"successprice-alert/load\",{\"_placeholder\":true,\"num\":0}]" }
+2025-04-03T14:25:26.315615Z  INFO GetOpenDeals: Retrieving list of open deals
+2025-04-03T14:25:26.316358Z DEBUG reqwest::connect: starting new connection: https://api.ipify.org/    
+2025-04-03T14:25:26.316904Z DEBUG hyper_util::client::legacy::connect::http: connecting to 172.67.74.152:443
+2025-04-03T14:25:26.513927Z DEBUG hyper_util::client::legacy::connect::http: connected to 172.67.74.152:443
+2025-04-03T14:25:27.206038Z DEBUG hyper_util::client::legacy::pool: pooling idle connection for ("https", api.ipify.org)
+2025-04-03T14:25:27.206176Z DEBUG reqwest::connect: starting new connection: http://ip-api.com/    
+2025-04-03T14:25:27.206602Z DEBUG hyper_util::client::legacy::connect::http: connecting to 208.95.112.1:80
+2025-04-03T14:25:27.472400Z DEBUG hyper_util::client::legacy::connect::http: connected to 208.95.112.1:80
+2025-04-03T14:25:27.758628Z DEBUG hyper_util::client::legacy::pool: pooling idle connection for ("http", ip-api.com)
+2025-04-03T14:25:27.758977Z  INFO TryConnect: Trying to connecto to wss://api-msk.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:25:27.759006Z  INFO TryConnect: Trying to connecto to wss://api-us4.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:25:27.759169Z  INFO TryConnect: Trying to connecto to wss://api-in.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:25:27.759212Z  INFO TryConnect: Trying to connecto to wss://api-us3.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:25:27.759311Z  INFO TryConnect: Trying to connecto to wss://api-l.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:25:27.759396Z  INFO TryConnect: Trying to connecto to wss://api-asia.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:25:27.759252Z  INFO TryConnect: Trying to connecto to wss://api-sc.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:25:27.759403Z  INFO TryConnect: Trying to connecto to wss://api-us-north.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:25:27.759542Z  INFO TryConnect: Trying to connecto to wss://api-fin.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:25:27.759619Z  INFO TryConnect: Trying to connecto to wss://api-hk.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:25:27.759678Z  INFO TryConnect: Trying to connecto to wss://api-fr2.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:25:27.759715Z  INFO TryConnect: Trying to connecto to wss://api-eu.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:25:27.759778Z  INFO TryConnect: Trying to connecto to wss://api-fr.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:25:27.759436Z  INFO TryConnect: Trying to connecto to wss://api-c.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:25:27.759308Z  INFO TryConnect: Trying to connecto to wss://api-us2.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:25:27.759816Z  INFO TryConnect: Trying to connecto to wss://api-spb.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:25:28.736882Z DEBUG tungstenite::handshake::client: Client handshake done.    
+2025-04-03T14:25:28.737050Z  INFO SuccessConnect: Succesfully connected to wss://api-eu.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:25:28.737362Z  INFO TryConnect: Trying to connecto to wss://api-eu.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:25:28.795821Z DEBUG tungstenite::handshake::client: Client handshake done.    
+2025-04-03T14:25:28.795981Z  INFO SuccessConnect: Succesfully connected to wss://api-spb.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:25:29.518739Z DEBUG tungstenite::handshake::client: Client handshake done.    
+2025-04-03T14:25:29.518928Z  INFO SuccessConnect: Succesfully connected to wss://api-msk.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:25:29.526144Z DEBUG tungstenite::handshake::client: Client handshake done.    
+2025-04-03T14:25:29.526266Z  INFO SuccessConnect: Succesfully connected to wss://api-us3.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:25:29.533843Z DEBUG tungstenite::handshake::client: Client handshake done.    
+2025-04-03T14:25:29.533963Z  INFO SuccessConnect: Succesfully connected to wss://api-us2.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:25:29.544639Z DEBUG tungstenite::handshake::client: Client handshake done.    
+2025-04-03T14:25:29.544765Z  INFO SuccessConnect: Succesfully connected to wss://api-sc.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:25:29.603035Z DEBUG tungstenite::handshake::client: Client handshake done.    
+2025-04-03T14:25:29.603148Z  INFO SuccessConnect: Succesfully connected to wss://api-us4.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:25:29.653607Z DEBUG tungstenite::handshake::client: Client handshake done.    
+2025-04-03T14:25:29.653718Z  INFO SuccessConnect: Succesfully connected to wss://api-eu.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:25:29.653933Z  INFO binary_options_tools_core::general::client: Started WebSocketClient
+2025-04-03T14:25:29.654907Z DEBUG binary_options_tools_core::general::client: Sent message to websocket!
+2025-04-03T14:25:29.877207Z DEBUG binary_options_tools_core::general::client: Sent message to websocket!
+2025-04-03T14:25:30.153724Z DEBUG tungstenite::handshake::client: Client handshake done.    
+2025-04-03T14:25:30.153884Z  INFO SuccessConnect: Succesfully connected to wss://api-us-north.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:25:30.321856Z DEBUG binary_options_tools_core::general::client: Recieved info: updateAssets
+2025-04-03T14:25:30.623419Z DEBUG binary_options_tools_core::general::client: Recieved data of type: updateAssets
+2025-04-03T14:25:30.623625Z DEBUG binary_options_tools_core::general::client: Recieved info: successauth
+2025-04-03T14:25:30.623657Z DEBUG binary_options_tools_core::general::client: Recieved data of type: successauth
+2025-04-03T14:25:30.623679Z DEBUG binary_options_tools_core::general::client: Recieved info: successupdateBalance
+2025-04-03T14:25:30.623700Z DEBUG binary_options_tools_core::general::client: Recieved data of type: successupdateBalance
+2025-04-03T14:25:30.623735Z DEBUG binary_options_tools_core::general::client: Recieved raw message: RawWebsocketMessage { value: "451-[\"updateCharts\",{\"_placeholder\":true,\"num\":0}]" }
+2025-04-03T14:25:30.623789Z  WARN binary_option_tools::pocketoption::parser::message: Failed to parse message of type 'successupdateBalance':
+ [{"chart_id":"chart-1","settings":"{\"chartId\":\"chart-1\",\"chartType\":2,\"chartPeriod\":6,\"candlesTimer\":true,\"symbol\":\"AUDNZD_otc\",\"demoDealAmount\":10,\"liveDealAmount\":4,\"enabledTradeMonitor\":false,\"enabledRatingWidget\":true,\"isVisible\":true,\"fastTimeframe\":180,\"enabledAutoscroll\":false,\"enabledGridSnap\":true,\"minimizedTradePanel\":false,\"fastCloseAt\":1743697500,\"enableQuickAutoOffset\":true,\"quickAutoOffsetValue\":300,\"showArea\":false,\"percentAmount\":0.01,\"currency\":\"USD\"}"}], parsing it as raw data
+2025-04-03T14:25:30.623802Z DEBUG binary_options_tools_core::general::client: Recieved raw message: RawWebsocketMessage { value: "[{\"chart_id\":\"chart-1\",\"settings\":\"{\\\"chartId\\\":\\\"chart-1\\\",\\\"chartType\\\":2,\\\"chartPeriod\\\":6,\\\"candlesTimer\\\":true,\\\"symbol\\\":\\\"AUDNZD_otc\\\",\\\"demoDealAmount\\\":10,\\\"liveDealAmount\\\":4,\\\"enabledTradeMonitor\\\":false,\\\"enabledRatingWidget\\\":true,\\\"isVisible\\\":true,\\\"fastTimeframe\\\":180,\\\"enabledAutoscroll\\\":false,\\\"enabledGridSnap\\\":true,\\\"minimizedTradePanel\\\":false,\\\"fastCloseAt\\\":1743697500,\\\"enableQuickAutoOffset\\\":true,\\\"quickAutoOffsetValue\\\":300,\\\"showArea\\\":false,\\\"percentAmount\\\":0.01,\\\"currency\\\":\\\"USD\\\"}\"}]" }
+2025-04-03T14:25:30.623836Z DEBUG binary_options_tools_core::general::client: Recieved info: successupdatePending
+2025-04-03T14:25:30.623861Z DEBUG binary_options_tools_core::general::client: Recieved data of type: successupdatePending
+2025-04-03T14:25:30.623882Z DEBUG binary_options_tools_core::general::client: Recieved info: updateOpenedDeals
+2025-04-03T14:25:30.631287Z DEBUG binary_options_tools_core::general::client: Recieved data of type: updateOpenedDeals
+2025-04-03T14:25:30.631349Z DEBUG binary_options_tools_core::general::client: Recieved raw message: RawWebsocketMessage { value: "451-[\"successupdateOpenedExpresses\",{\"_placeholder\":true,\"num\":0}]" }
+2025-04-03T14:25:30.631379Z DEBUG binary_options_tools_core::general::client: Recieved data of type: updateOpenedDeals
+2025-04-03T14:25:30.631411Z DEBUG binary_options_tools_core::general::client: Recieved info: updateClosedDeals
+2025-04-03T14:25:30.631473Z DEBUG binary_options_tools_core::general::client: Sent message to websocket!
+2025-04-03T14:25:30.655050Z DEBUG binary_options_tools_core::general::client: Recieved data of type: updateClosedDeals
+2025-04-03T14:25:30.655164Z DEBUG binary_options_tools_core::general::client: Recieved raw message: RawWebsocketMessage { value: "451-[\"successfavorite/load\",{\"_placeholder\":true,\"num\":0}]" }
+2025-04-03T14:25:30.657160Z  WARN binary_option_tools::pocketoption::parser::message: Failed to parse message of type 'updateClosedDeals':
+ ["EURUSD_otc"], parsing it as raw data
+2025-04-03T14:25:30.657182Z DEBUG binary_options_tools_core::general::client: Recieved raw message: RawWebsocketMessage { value: "[\"EURUSD_otc\"]" }
+2025-04-03T14:25:30.657265Z DEBUG binary_options_tools_core::general::client: Recieved raw message: RawWebsocketMessage { value: "451-[\"successfavorite/load\",{\"_placeholder\":true,\"num\":0}]" }
+2025-04-03T14:25:30.657340Z  WARN binary_option_tools::pocketoption::parser::message: Failed to parse message of type 'updateClosedDeals':
+ ["EURUSD_otc"], parsing it as raw data
+2025-04-03T14:25:30.657352Z DEBUG binary_options_tools_core::general::client: Recieved raw message: RawWebsocketMessage { value: "[\"EURUSD_otc\"]" }
+2025-04-03T14:25:30.657397Z DEBUG binary_options_tools_core::general::client: Recieved raw message: RawWebsocketMessage { value: "451-[\"successprice-alert/load\",{\"_placeholder\":true,\"num\":0}]" }
+2025-04-03T14:25:30.657434Z DEBUG binary_options_tools_core::general::client: Recieved data of type: updateClosedDeals
+2025-04-03T14:25:30.657482Z DEBUG binary_options_tools_core::general::client: Recieved raw message: RawWebsocketMessage { value: "451-[\"successindicator/load\",{\"_placeholder\":true,\"num\":0}]" }
+2025-04-03T14:25:35.256312Z DEBUG debug: BinaryOptionsToolsV2::logs: Timeout set to: 271 (6 extra seconds)
+2025-04-03T14:25:35.258205Z  INFO CheckResults: Checking results for trade of id 78e78d35-b657-4aa9-85c6-d3dd09fb8007
+2025-04-03T14:25:35.258251Z DEBUG binary_option_tools::pocketoption::pocket_client: Trade result not found in closed deals list, waiting for closing order to check.
+2025-04-03T14:25:35.266793Z DEBUG CheckResult: Expiration time in 280.7417316s seconds.
+2025-04-03T14:25:35.267701Z DEBUG binary_options_tools_core::general::client: Sent message to websocket!
+2025-04-03T14:30:11.645952Z DEBUG debug: BinaryOptionsToolsV2::logs: Timeout set to: 11 (6 extra seconds)
+2025-04-03T14:30:11.736596Z  INFO CheckResults: Checking results for trade of id 78e78d35-b657-4aa9-85c6-d3dd09fb8007
+2025-04-03T14:30:11.736819Z DEBUG binary_option_tools::pocketoption::pocket_client: Trade result not found in closed deals list, waiting for closing order to check.
+2025-04-03T14:30:11.736890Z DEBUG CheckResult: Expiration time in 4.2631279s seconds.
+2025-04-03T14:30:11.738036Z DEBUG binary_options_tools_core::general::client: Sent message to websocket!
+2025-04-03T14:30:27.756905Z DEBUG debug: BinaryOptionsToolsV2::logs: Timeout set to: 11 (6 extra seconds)
+2025-04-03T14:30:27.757859Z  INFO CheckResults: Checking results for trade of id 78e78d35-b657-4aa9-85c6-d3dd09fb8007
+2025-04-03T14:30:27.757967Z DEBUG binary_option_tools::pocketoption::pocket_client: Trade result not found in closed deals list, waiting for closing order to check.
+2025-04-03T14:30:32.878312Z DEBUG reqwest::connect: starting new connection: https://api.ipify.org/    
+2025-04-03T14:30:32.890268Z DEBUG hyper_util::client::legacy::connect::http: connecting to 104.26.13.205:443
+2025-04-03T14:30:33.096892Z DEBUG hyper_util::client::legacy::connect::http: connected to 104.26.13.205:443
+2025-04-03T14:30:33.819709Z DEBUG reqwest::connect: starting new connection: http://ip-api.com/    
+2025-04-03T14:30:33.825319Z DEBUG hyper_util::client::legacy::connect::http: connecting to 208.95.112.1:80
+2025-04-03T14:30:34.096409Z DEBUG hyper_util::client::legacy::connect::http: connected to 208.95.112.1:80
+2025-04-03T14:30:34.436307Z DEBUG hyper_util::client::legacy::pool: pooling idle connection for ("http", ip-api.com)
+2025-04-03T14:30:34.436520Z  INFO TryConnect: Trying to connecto to wss://api-msk.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:30:34.436626Z  INFO TryConnect: Trying to connecto to wss://api-in.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:30:34.436625Z  INFO TryConnect: Trying to connecto to wss://api-asia.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:30:34.436719Z  INFO TryConnect: Trying to connecto to wss://api-us2.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:30:34.436753Z  INFO TryConnect: Trying to connecto to wss://api-eu.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:30:34.436801Z  INFO TryConnect: Trying to connecto to wss://api-fr.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:30:34.436809Z  INFO TryConnect: Trying to connecto to wss://api-l.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:30:34.436853Z  INFO TryConnect: Trying to connecto to wss://api-sc.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:30:34.436893Z  INFO TryConnect: Trying to connecto to wss://api-us-north.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:30:34.436980Z  INFO TryConnect: Trying to connecto to wss://api-c.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:30:34.436989Z  INFO TryConnect: Trying to connecto to wss://api-fin.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:30:34.437050Z  INFO TryConnect: Trying to connecto to wss://api-hk.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:30:34.437230Z  INFO TryConnect: Trying to connecto to wss://api-fr2.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:30:34.438411Z  INFO TryConnect: Trying to connecto to wss://api-us4.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:30:34.438484Z  INFO TryConnect: Trying to connecto to wss://api-spb.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:30:34.438546Z  INFO TryConnect: Trying to connecto to wss://api-us3.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:30:35.421428Z DEBUG tungstenite::handshake::client: Client handshake done.    
+2025-04-03T14:30:35.421485Z  INFO SuccessConnect: Succesfully connected to wss://api-eu.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:30:35.421652Z  INFO TryConnect: Trying to connecto to wss://api-eu.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:30:35.448198Z DEBUG tungstenite::handshake::client: Client handshake done.    
+2025-04-03T14:30:35.448329Z  INFO SuccessConnect: Succesfully connected to wss://api-spb.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:30:36.076228Z DEBUG tungstenite::handshake::client: Client handshake done.    
+2025-04-03T14:30:36.076352Z  INFO SuccessConnect: Succesfully connected to wss://api-msk.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:30:36.252267Z DEBUG tungstenite::handshake::client: Client handshake done.    
+2025-04-03T14:30:36.252373Z  INFO SuccessConnect: Succesfully connected to wss://api-sc.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:30:36.270515Z DEBUG tungstenite::handshake::client: Client handshake done.    
+2025-04-03T14:30:36.270572Z  INFO SuccessConnect: Succesfully connected to wss://api-us2.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:30:36.306191Z DEBUG tungstenite::handshake::client: Client handshake done.    
+2025-04-03T14:30:36.306258Z  INFO SuccessConnect: Succesfully connected to wss://api-us-north.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:30:36.326009Z DEBUG tungstenite::handshake::client: Client handshake done.    
+2025-04-03T14:30:36.326129Z  INFO SuccessConnect: Succesfully connected to wss://api-us3.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:30:36.331045Z DEBUG tungstenite::handshake::client: Client handshake done.    
+2025-04-03T14:30:36.331174Z  INFO SuccessConnect: Succesfully connected to wss://api-us4.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:30:36.354656Z DEBUG tungstenite::handshake::client: Client handshake done.    
+2025-04-03T14:30:36.354791Z  INFO SuccessConnect: Succesfully connected to wss://api-eu.po.market/socket.io/?EIO=4&transport=websocket
+2025-04-03T14:30:36.355130Z  INFO binary_options_tools_core::general::client: Started WebSocketClient
+2025-04-03T14:30:36.355929Z DEBUG binary_options_tools_core::general::client: Sent message to websocket!
+2025-04-03T14:30:36.965518Z  INFO GetClosedDeals: Retrieving list of closed deals
+2025-04-03T14:30:37.161227Z DEBUG binary_options_tools_core::general::client: Sent message to websocket!
+2025-04-03T14:30:37.410639Z DEBUG binary_options_tools_core::general::client: Recieved info: updateAssets
+2025-04-03T14:30:37.886765Z DEBUG binary_options_tools_core::general::client: Recieved data of type: updateAssets
+2025-04-03T14:30:37.888018Z DEBUG binary_options_tools_core::general::client: Recieved info: successauth
+2025-04-03T14:30:37.888189Z DEBUG binary_options_tools_core::general::client: Recieved data of type: successauth
+2025-04-03T14:30:37.888323Z DEBUG binary_options_tools_core::general::client: Recieved info: successupdateBalance
+2025-04-03T14:30:37.888425Z DEBUG binary_options_tools_core::general::client: Recieved data of type: successupdateBalance
+2025-04-03T14:30:37.888603Z DEBUG binary_options_tools_core::general::client: Recieved raw message: RawWebsocketMessage { value: "451-[\"updateCharts\",{\"_placeholder\":true,\"num\":0}]" }
+2025-04-03T14:30:37.915653Z  WARN binary_option_tools::pocketoption::parser::message: Failed to parse message of type 'successupdateBalance':
+ [{"chart_id":"chart-1","settings":"{\"chartId\":\"chart-1\",\"chartType\":2,\"chartPeriod\":6,\"candlesTimer\":true,\"symbol\":\"EURJPY_otc\",\"demoDealAmount\":10,\"liveDealAmount\":4,\"enabledTradeMonitor\":false,\"enabledRatingWidget\":true,\"isVisible\":true,\"fastTimeframe\":180,\"enabledAutoscroll\":false,\"enabledGridSnap\":true,\"minimizedTradePanel\":false,\"fastCloseAt\":1743697800,\"enableQuickAutoOffset\":true,\"quickAutoOffsetValue\":300,\"showArea\":false,\"percentAmount\":0.01,\"currency\":\"USD\"}"}], parsing it as raw data
+2025-04-03T14:30:37.915780Z DEBUG binary_options_tools_core::general::client: Recieved raw message: RawWebsocketMessage { value: "[{\"chart_id\":\"chart-1\",\"settings\":\"{\\\"chartId\\\":\\\"chart-1\\\",\\\"chartType\\\":2,\\\"chartPeriod\\\":6,\\\"candlesTimer\\\":true,\\\"symbol\\\":\\\"EURJPY_otc\\\",\\\"demoDealAmount\\\":10,\\\"liveDealAmount\\\":4,\\\"enabledTradeMonitor\\\":false,\\\"enabledRatingWidget\\\":true,\\\"isVisible\\\":true,\\\"fastTimeframe\\\":180,\\\"enabledAutoscroll\\\":false,\\\"enabledGridSnap\\\":true,\\\"minimizedTradePanel\\\":false,\\\"fastCloseAt\\\":1743697800,\\\"enableQuickAutoOffset\\\":true,\\\"quickAutoOffsetValue\\\":300,\\\"showArea\\\":false,\\\"percentAmount\\\":0.01,\\\"currency\\\":\\\"USD\\\"}\"}]" }
+2025-04-03T14:30:37.916031Z DEBUG binary_options_tools_core::general::client: Recieved info: updateClosedDeals
+2025-04-03T14:30:37.917674Z DEBUG binary_options_tools_core::general::client: Recieved data of type: updateClosedDeals
+2025-04-03T14:30:37.917997Z DEBUG binary_options_tools_core::general::client: Recieved raw message: RawWebsocketMessage { value: "451-[\"successupdateOpenedExpresses\",{\"_placeholder\":true,\"num\":0}]" }
+2025-04-03T14:30:37.918110Z DEBUG binary_options_tools_core::general::client: Recieved data of type: updateClosedDeals
+2025-04-03T14:30:37.918262Z DEBUG binary_options_tools_core::general::client: Recieved info: updateOpenedDeals
+2025-04-03T14:30:37.918380Z DEBUG binary_options_tools_core::general::client: Recieved data of type: updateOpenedDeals
+2025-04-03T14:30:37.918485Z DEBUG binary_options_tools_core::general::client: Recieved info: successupdatePending
+2025-04-03T14:30:37.918591Z DEBUG binary_options_tools_core::general::client: Recieved data of type: successupdatePending
+2025-04-03T14:30:37.918738Z DEBUG binary_options_tools_core::general::client: Recieved raw message: RawWebsocketMessage { value: "451-[\"successindicator/load\",{\"_placeholder\":true,\"num\":0}]" }
+2025-04-03T14:30:37.919115Z DEBUG binary_options_tools_core::general::client: Recieved data of type: successupdatePending
+2025-04-03T14:30:37.919332Z DEBUG binary_options_tools_core::general::client: Recieved raw message: RawWebsocketMessage { value: "451-[\"successfavorite/load\",{\"_placeholder\":true,\"num\":0}]" }
+2025-04-03T14:30:37.919430Z DEBUG binary_options_tools_core::general::client: Recieved data of type: successupdatePending
+2025-04-03T14:30:37.919592Z DEBUG binary_options_tools_core::general::client: Recieved raw message: RawWebsocketMessage { value: "451-[\"successprice-alert/load\",{\"_placeholder\":true,\"num\":0}]" }
+2025-04-03T14:30:37.919684Z DEBUG binary_options_tools_core::general::client: Recieved data of type: successupdatePending
+2025-04-03T14:30:37.919960Z DEBUG binary_options_tools_core::general::client: Sent message to websocket!
+2025-04-03T14:30:37.924464Z DEBUG binary_options_tools_core::general::client: Recieved info: updateHistoryNew
+2025-04-03T14:30:38.013866Z DEBUG binary_options_tools_core::general::client: Recieved data of type: updateHistoryNew
+2025-04-03T14:30:38.013944Z DEBUG binary_options_tools_core::general::client: Recieved raw message: RawWebsocketMessage { value: "451-[\"successindicator/load\",{\"_placeholder\":true,\"num\":0}]" }
+2025-04-03T14:30:38.014042Z  WARN binary_option_tools::pocketoption::parser::message: Failed to parse message of type 'updateHistoryNew':
+ {"favorites":[],"list":[{"id":"11718649-b377-40e7-8600-265755690a5f","uid":96282099,"settings":{"lines":{"main":{"lineWidth":1,"color":"#ffffff"}},"acceleration":0.02,"accelerationMax":0.2},"type":"sar","chart_id":"chart-1","visible":1,"request_id":"D7IpPhhfiECbQMcbWvB7H","created_at":"2025-03-27T05:28:29.000Z"},{"id":"50ca9fd9-50d5-420c-a3b4-382d9f4e3138","uid":96282099,"settings":{"lines":{"main":{"lineWidth":1,"color":"#d35400"}},"ma":"SMA","period":100},"type":"ma","chart_id":"chart-1","visible":1,"request_id":"Dq_X_KmaGAQtZQrnEfMpK","created_at":"2025-03-27T05:29:51.000Z"},{"id":"502cc6cc-92cc-4e62-8837-9fc5ebaacb0f","uid":96282099,"settings":{"lines":{"main":{"lineWidth":1,"color":"#86da0e","show":true}},"ma":"SMA","period":50},"type":"ma","chart_id":"chart-1","visible":1,"request_id":"mZCVyv2qdhySe_RMM21Ry","created_at":"2025-03-27T05:28:23.000Z"}]}, parsing it as raw data
+2025-04-03T14:30:38.014059Z DEBUG binary_options_tools_core::general::client: Recieved raw message: RawWebsocketMessage { value: "{\"favorites\":[],\"list\":[{\"id\":\"11718649-b377-40e7-8600-265755690a5f\",\"uid\":96282099,\"settings\":{\"lines\":{\"main\":{\"lineWidth\":1,\"color\":\"#ffffff\"}},\"acceleration\":0.02,\"accelerationMax\":0.2},\"type\":\"sar\",\"chart_id\":\"chart-1\",\"visible\":1,\"request_id\":\"D7IpPhhfiECbQMcbWvB7H\",\"created_at\":\"2025-03-27T05:28:29.000Z\"},{\"id\":\"50ca9fd9-50d5-420c-a3b4-382d9f4e3138\",\"uid\":96282099,\"settings\":{\"lines\":{\"main\":{\"lineWidth\":1,\"color\":\"#d35400\"}},\"ma\":\"SMA\",\"period\":100},\"type\":\"ma\",\"chart_id\":\"chart-1\",\"visible\":1,\"request_id\":\"Dq_X_KmaGAQtZQrnEfMpK\",\"created_at\":\"2025-03-27T05:29:51.000Z\"},{\"id\":\"502cc6cc-92cc-4e62-8837-9fc5ebaacb0f\",\"uid\":96282099,\"settings\":{\"lines\":{\"main\":{\"lineWidth\":1,\"color\":\"#86da0e\",\"show\":true}},\"ma\":\"SMA\",\"period\":50},\"type\":\"ma\",\"chart_id\":\"chart-1\",\"visible\":1,\"request_id\":\"mZCVyv2qdhySe_RMM21Ry\",\"created_at\":\"2025-03-27T05:28:23.000Z\"}]}" }
+2025-04-03T14:30:38.014105Z DEBUG binary_options_tools_core::general::client: Recieved raw message: RawWebsocketMessage { value: "451-[\"successfavorite/load\",{\"_placeholder\":true,\"num\":0}]" }
+2025-04-03T14:30:41.968165Z  INFO GetClosedDeals: Retrieving list of closed deals
